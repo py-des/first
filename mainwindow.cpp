@@ -18,10 +18,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    qDebug() << "111111111";
     aaa x,y;
 //    pointer_cast<void*>(&x::func);
 //    asm_cast(p4,x::func);
-    auto *p = aaa::func;
+//    auto *p = aaa::func;
     qDebug() << "x: " << &x.aa
              << &x.bbb;
     qDebug() << "y: " << &y.aa
